@@ -1,0 +1,43 @@
+.navigation_container{
+  background-color: #041C32;
+  z-index: 2;
+  color: #F3F9FB;
+  position: fixed;
+  top:0;
+  width: 100%;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#F3F9FB !important;
+}
+
+.brand {
+  color:#F3F9FB !important;
+  margin-left: 2rem;
+  
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter:invert(1);
+
+}
+
+
+
+
+
+
+
+
+
+.element a:hover {
+ border: 0.5px solid var(--font-color);
+}
+.collapse{
+  justify-content: flex-end;
+  margin-right: 2rem;
+  border-color: none;
+  
+
+}
